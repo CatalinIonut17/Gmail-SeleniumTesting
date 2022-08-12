@@ -1,0 +1,8 @@
+Buna ziua,
+
+Acesta este un mail trimis automat cu ajutorul Selenium.
+
+Testul este realizat pentru proiect...
+
+Spor in continuarea,
+O zi buna!
