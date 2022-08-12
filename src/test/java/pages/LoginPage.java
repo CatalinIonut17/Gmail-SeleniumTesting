@@ -37,7 +37,7 @@ public class LoginPage {
     WebElement recipientTextBox;
     @FindBy(name = "subjectbox")
     WebElement subjectTextBox;
-    @FindBy(id = ":a0")
+    @FindBy(xpath = "/html[1]/body[1]/div[25]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[4]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[1]/td[1]/div[1]/div[1]/div[2]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[2]/div[1]")
     WebElement messageBody;
     @FindBy(xpath = "//div[@class='T-I J-J5-Ji aoO v7 T-I-atl L3']")
     WebElement sendButton;
