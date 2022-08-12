@@ -13,7 +13,7 @@ public class WriteSendMessageTest extends TestBase {
     @Test
     public void shouldSuccedToWriteAndSendMessage() throws IOException, InterruptedException {
 
-        //partea de logarea in cont
+        //Se incearca/testeaza logarea in cont
         loginPage= new LoginPage(webDriver);
 
         loginPage.enterEmail();
@@ -24,7 +24,7 @@ public class WriteSendMessageTest extends TestBase {
         Thread.sleep(1500l);
         loginPage.clickLoginButton();
 
-        //partea de creeare a mesajului si trimitere
+        //Se testeaza partea de creere a mesajului si trimitere
 
         Thread.sleep(2000l);
         loginPage.clickButtonWriteMessage();

@@ -14,7 +14,7 @@ public class OpenDeleteLastMailTest extends TestBase {
 
         loginPage= new LoginPage(webDriver);
 
-        //se incearca conectarea
+        //Se incearca/testeaza logarea in cont
         loginPage.enterEmail();
         Thread.sleep(1500l);
         loginPage.clickNextEmailButton();
@@ -24,7 +24,7 @@ public class OpenDeleteLastMailTest extends TestBase {
         loginPage.clickLoginButton();
         Thread.sleep(1500l);
 
-        //se incearca deschiderea si stergerea ultimului mail primit
+        //se testeaza deschiderea si stergerea ultimului mail primit
         loginPage.openLastMailReceived();
         Thread.sleep(1500l);
         loginPage.clickDeleteLastMailReceived();

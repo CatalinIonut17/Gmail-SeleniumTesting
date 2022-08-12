@@ -38,7 +38,7 @@ public class CreateAccountTest extends TestBase {
         Thread.sleep(2000l);
         createAccountPage.clickButtonCustomization();
         Thread.sleep(2000l);
-        createAccountPage.clickConfirmButtonSetings();
+        createAccountPage.clickConfirmButtonSettings();
         Thread.sleep(2000l);
         createAccountPage.clickAgreeButtonCreateAccount();
 

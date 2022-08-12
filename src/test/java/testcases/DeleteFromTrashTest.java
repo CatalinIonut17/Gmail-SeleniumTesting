@@ -15,7 +15,7 @@ public class DeleteFromTrashTest extends TestBase {
     public void shouldSuccedDeleteAllFromTrash() throws InterruptedException, IOException {
         loginPage= new LoginPage(webDriver);
 
-        //se incearca conectarea
+        //Se incearca/testeaza logarea in cont
         loginPage.enterEmail();
         Thread.sleep(1500l);
         loginPage.clickNextEmailButton();
@@ -25,7 +25,7 @@ public class DeleteFromTrashTest extends TestBase {
         loginPage.clickLoginButton();
         Thread.sleep(1500l);
 
-        /// se incearca stergerea tuturor fisierelor din cosul de gunoi
+        /// se testeaza stergerea tuturor fisierelor din cosul de gunoi
         loginPage.clickExpandOptions();
         Thread.sleep(1500l);
         loginPage.clickTrashCan();

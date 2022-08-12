@@ -46,7 +46,7 @@ public class CreateAccountPage {
     WebElement genderTextBox;
 
     @FindBy(xpath = "//span[@class='VfPpkd-vQzf8d']")
-    WebElement buttonBirtdayGender;
+    WebElement buttonBirthdayGender;
 
     @FindBy(xpath = "(//span[@class='VfPpkd-vQzf8d'])[2]")
     WebElement buttonAcceptBenefits;
@@ -55,7 +55,7 @@ public class CreateAccountPage {
     @FindBy(xpath = "//span[@class='VfPpkd-vQzf8d']")
     WebElement buttonCustomizationInfo;
     @FindBy(xpath = "(//span[@class='VfPpkd-vQzf8d'])[2]")
-    WebElement confirmButtonForSetings;
+    WebElement confirmButtonForSettings;
     @FindBy(xpath = "(//span[@class='VfPpkd-vQzf8d'])[1]")
     WebElement agreeButtonToCreateAccount;
 
@@ -108,7 +108,7 @@ public class CreateAccountPage {
     }
 
     public void clickButtonBirthdayGender(){
-        buttonBirtdayGender.click();
+        buttonBirthdayGender.click();
     }
 
     public void clickButtonAcceptBenefits(){
@@ -123,8 +123,8 @@ public class CreateAccountPage {
         buttonCustomizationInfo.click();
     }
 
-    public void clickConfirmButtonSetings(){
-        confirmButtonForSetings.click();
+    public void clickConfirmButtonSettings(){
+        confirmButtonForSettings.click();
     }
 
     public void clickAgreeButtonCreateAccount(){
