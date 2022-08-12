@@ -39,7 +39,7 @@ public class DeleteFromTrashTest extends TestBase {
         loginPage.clickConfirmDelete();*/
 
 
-        Assert.assertEquals(loginPage.trashIsEmpty(), 0);
+        //Assert.assertEquals(loginPage.trashIsEmpty(), 0);
     }
 
 }
